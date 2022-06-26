@@ -67,6 +67,10 @@ function factura() {
     $("#factura").append(
         "<br>" + "<b>Total Materias:</b>" + "&nbsp;&nbsp;&nbsp;&nbsp;" + this.totalMaterias +
 
+        "<br>" + "<b>Papelería:</b>" + "&nbsp;&nbsp;&nbsp;&nbsp;" + this.papeleria +
+
+        "<br>" + "<b>Carnet:</b>" + "&nbsp;&nbsp;&nbsp;&nbsp;" + this.carnet +
+
         "<br>" + "<b>Total Matricula:</b>" + "&nbsp;&nbsp;&nbsp;&nbsp;" + this.total +
 
         "<br>" + "<b> Descuento:</b>" + "&nbsp;&nbsp;&nbsp;&nbsp;" + this.descuento +
