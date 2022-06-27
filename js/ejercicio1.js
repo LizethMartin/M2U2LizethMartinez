@@ -50,7 +50,7 @@ function factura() {
     //Operación para obtener el total sin descuento 
     this.total = this.totalMaterias + this.papeleria + this.carnet;
     //Operación para obtener el valor del descuento
-    this.descuento = this.total * 0.20;
+    this.descuento = this.totalMaterias * 0.20;
     //Operación para obtener el valor total con el descuento
     this.totalDescuento = this.total - this.descuento;
 
